@@ -1,0 +1,558 @@
+Starting Sauce Protractor script now
+iflanagan
+undefined
+[17:23:00] I/launcher - Running 4 instances of WebDriver
+[17:23:00] I/testLogger - 
+------------------------------------
+
+[17:23:00] I/testLogger - [firefox latest OS X 10.10 #01-1] PID: 55101
+[firefox latest OS X 10.10 #01-1] Specs: /Users/ianflanagan/Workspace/ProtractorDemo/specs/2_spec.js
+[firefox latest OS X 10.10 #01-1] 
+[firefox latest OS X 10.10 #01-1] Starting Sauce Protractor script now
+[firefox latest OS X 10.10 #01-1] iflanagan
+[firefox latest OS X 10.10 #01-1] undefined
+[firefox latest OS X 10.10 #01-1] [17:23:00] I/hosted - Using the selenium server at http://ondemand.saucelabs.com:80/wd/hub
+[firefox latest OS X 10.10 #01-1] 
+[firefox latest OS X 10.10 #01-1] /Users/ianflanagan/Workspace/ProtractorDemo/node_modules/selenium-webdriver/lib/http.js:536
+[firefox latest OS X 10.10 #01-1]     throw new error.WebDriverError(value);
+[firefox latest OS X 10.10 #01-1]           ^
+[firefox latest OS X 10.10 #01-1] WebDriverError: Misconfigured -- Sauce Labs Authentication Error.
+[firefox latest OS X 10.10 #01-1] You used username 'None' and access key 'None' to authenticate, which are not valid Sauce Labs credentials.
+[firefox latest OS X 10.10 #01-1] 
+[firefox latest OS X 10.10 #01-1] The following desired capabilities were received:
+[firefox latest OS X 10.10 #01-1] {'browserName': 'firefox',
+[firefox latest OS X 10.10 #01-1]  'count': 1,
+[firefox latest OS X 10.10 #01-1]  'maxInstances': 2,
+[firefox latest OS X 10.10 #01-1]  'name': 'firefox-tests',
+[firefox latest OS X 10.10 #01-1]  'platform': 'OS X 10.10',
+[firefox latest OS X 10.10 #01-1]  'sauceUser': 'iflanagan',
+[firefox latest OS X 10.10 #01-1]  'shardTestFiles': True,
+[firefox latest OS X 10.10 #01-1]  'version': 'latest'}
+[firefox latest OS X 10.10 #01-1]     at parseHttpResponse (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/selenium-webdriver/lib/http.js:536:11)
+[firefox latest OS X 10.10 #01-1]     at doSend.then.response (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/selenium-webdriver/lib/http.js:441:30)
+[firefox latest OS X 10.10 #01-1]     at processTicksAndRejections (internal/process/next_tick.js:81:5)
+[firefox latest OS X 10.10 #01-1] From: Task: WebDriver.createSession()
+[firefox latest OS X 10.10 #01-1]     at Function.createSession (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/selenium-webdriver/lib/webdriver.js:769:24)
+[firefox latest OS X 10.10 #01-1]     at Function.createSession (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/selenium-webdriver/firefox/index.js:521:41)
+[firefox latest OS X 10.10 #01-1]     at createDriver (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/selenium-webdriver/index.js:170:33)
+[firefox latest OS X 10.10 #01-1]     at Builder.build (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/selenium-webdriver/index.js:632:16)
+[firefox latest OS X 10.10 #01-1]     at Hosted.getNewDriver (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/protractor/built/driverProviders/driverProvider.js:53:33)
+[firefox latest OS X 10.10 #01-1]     at Runner.createBrowser (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/protractor/built/runner.js:195:43)
+[firefox latest OS X 10.10 #01-1]     at q.then.then (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/protractor/built/runner.js:339:29)
+[firefox latest OS X 10.10 #01-1]     at _fulfilled (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/q/q.js:834:54)
+[firefox latest OS X 10.10 #01-1]     at /Users/ianflanagan/Workspace/ProtractorDemo/node_modules/q/q.js:863:30
+[firefox latest OS X 10.10 #01-1]     at Promise.promise.promiseDispatch (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/q/q.js:796:13)
+
+[17:23:00] I/testLogger - 
+
+[17:23:00] E/launcher - Runner process exited unexpectedly with error code: 1
+[17:23:00] I/launcher - 4 instance(s) of WebDriver still running
+[17:23:00] I/testLogger - 
+------------------------------------
+
+[17:23:00] I/testLogger - [chrome 41 Windows 7 #11-0] PID: 55100
+[chrome 41 Windows 7 #11-0] Specs: /Users/ianflanagan/Workspace/ProtractorDemo/specs/1_spec.js
+[chrome 41 Windows 7 #11-0] 
+[chrome 41 Windows 7 #11-0] Starting Sauce Protractor script now
+[chrome 41 Windows 7 #11-0] iflanagan
+[chrome 41 Windows 7 #11-0] undefined
+[chrome 41 Windows 7 #11-0] [17:23:00] I/hosted - Using the selenium server at http://ondemand.saucelabs.com:80/wd/hub
+[chrome 41 Windows 7 #11-0] 
+[chrome 41 Windows 7 #11-0] /Users/ianflanagan/Workspace/ProtractorDemo/node_modules/selenium-webdriver/lib/http.js:536
+[chrome 41 Windows 7 #11-0]     throw new error.WebDriverError(value);
+[chrome 41 Windows 7 #11-0]           ^
+[chrome 41 Windows 7 #11-0] WebDriverError: Misconfigured -- Sauce Labs Authentication Error.
+[chrome 41 Windows 7 #11-0] You used username 'None' and access key 'None' to authenticate, which are not valid Sauce Labs credentials.
+[chrome 41 Windows 7 #11-0] 
+[chrome 41 Windows 7 #11-0] The following desired capabilities were received:
+[chrome 41 Windows 7 #11-0] {'browserName': 'chrome',
+[chrome 41 Windows 7 #11-0]  'count': 1,
+[chrome 41 Windows 7 #11-0]  'maxInstances': 2,
+[chrome 41 Windows 7 #11-0]  'name': 'chrome-tests',
+[chrome 41 Windows 7 #11-0]  'platform': 'Windows 7',
+[chrome 41 Windows 7 #11-0]  'sauceUser': 'iflanagan',
+[chrome 41 Windows 7 #11-0]  'shardTestFiles': True,
+[chrome 41 Windows 7 #11-0]  'version': '41'}
+[chrome 41 Windows 7 #11-0]     at parseHttpResponse (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/selenium-webdriver/lib/http.js:536:11)
+[chrome 41 Windows 7 #11-0]     at doSend.then.response (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/selenium-webdriver/lib/http.js:441:30)
+[chrome 41 Windows 7 #11-0]     at processTicksAndRejections (internal/process/next_tick.js:81:5)
+[chrome 41 Windows 7 #11-0] From: Task: WebDriver.createSession()
+[chrome 41 Windows 7 #11-0]     at Function.createSession (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/selenium-webdriver/lib/webdriver.js:769:24)
+[chrome 41 Windows 7 #11-0]     at Function.createSession (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/selenium-webdriver/chrome.js:761:15)
+[chrome 41 Windows 7 #11-0]     at createDriver (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/selenium-webdriver/index.js:170:33)
+[chrome 41 Windows 7 #11-0]     at Builder.build (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/selenium-webdriver/index.js:626:16)
+[chrome 41 Windows 7 #11-0]     at Hosted.getNewDriver (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/protractor/built/driverProviders/driverProvider.js:53:33)
+[chrome 41 Windows 7 #11-0]     at Runner.createBrowser (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/protractor/built/runner.js:195:43)
+[chrome 41 Windows 7 #11-0]     at q.then.then (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/protractor/built/runner.js:339:29)
+[chrome 41 Windows 7 #11-0]     at _fulfilled (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/q/q.js:834:54)
+[chrome 41 Windows 7 #11-0]     at /Users/ianflanagan/Workspace/ProtractorDemo/node_modules/q/q.js:863:30
+[chrome 41 Windows 7 #11-0]     at Promise.promise.promiseDispatch (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/q/q.js:796:13)
+
+[17:23:00] I/testLogger - 
+
+[17:23:00] E/launcher - Runner process exited unexpectedly with error code: 1
+[17:23:00] I/launcher - 4 instance(s) of WebDriver still running
+[17:23:00] I/testLogger - 
+------------------------------------
+
+[17:23:00] I/testLogger - [chrome 41 Windows 7 #11-1] PID: 55102
+[chrome 41 Windows 7 #11-1] Specs: /Users/ianflanagan/Workspace/ProtractorDemo/specs/2_spec.js
+[chrome 41 Windows 7 #11-1] 
+[chrome 41 Windows 7 #11-1] Starting Sauce Protractor script now
+[chrome 41 Windows 7 #11-1] iflanagan
+[chrome 41 Windows 7 #11-1] undefined
+[chrome 41 Windows 7 #11-1] [17:23:00] I/hosted - Using the selenium server at http://ondemand.saucelabs.com:80/wd/hub
+[chrome 41 Windows 7 #11-1] 
+[chrome 41 Windows 7 #11-1] /Users/ianflanagan/Workspace/ProtractorDemo/node_modules/selenium-webdriver/lib/http.js:536
+[chrome 41 Windows 7 #11-1]     throw new error.WebDriverError(value);
+[chrome 41 Windows 7 #11-1]           ^
+[chrome 41 Windows 7 #11-1] WebDriverError: Misconfigured -- Sauce Labs Authentication Error.
+[chrome 41 Windows 7 #11-1] You used username 'None' and access key 'None' to authenticate, which are not valid Sauce Labs credentials.
+[chrome 41 Windows 7 #11-1] 
+[chrome 41 Windows 7 #11-1] The following desired capabilities were received:
+[chrome 41 Windows 7 #11-1] {'browserName': 'chrome',
+[chrome 41 Windows 7 #11-1]  'count': 1,
+[chrome 41 Windows 7 #11-1]  'maxInstances': 2,
+[chrome 41 Windows 7 #11-1]  'name': 'chrome-tests',
+[chrome 41 Windows 7 #11-1]  'platform': 'Windows 7',
+[chrome 41 Windows 7 #11-1]  'sauceUser': 'iflanagan',
+[chrome 41 Windows 7 #11-1]  'shardTestFiles': True,
+[chrome 41 Windows 7 #11-1]  'version': '41'}
+[chrome 41 Windows 7 #11-1]     at parseHttpResponse (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/selenium-webdriver/lib/http.js:536:11)
+[chrome 41 Windows 7 #11-1]     at doSend.then.response (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/selenium-webdriver/lib/http.js:441:30)
+[chrome 41 Windows 7 #11-1]     at processTicksAndRejections (internal/process/next_tick.js:81:5)
+[chrome 41 Windows 7 #11-1] From: Task: WebDriver.createSession()
+[chrome 41 Windows 7 #11-1]     at Function.createSession (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/selenium-webdriver/lib/webdriver.js:769:24)
+[chrome 41 Windows 7 #11-1]     at Function.createSession (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/selenium-webdriver/chrome.js:761:15)
+[chrome 41 Windows 7 #11-1]     at createDriver (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/selenium-webdriver/index.js:170:33)
+[chrome 41 Windows 7 #11-1]     at Builder.build (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/selenium-webdriver/index.js:626:16)
+[chrome 41 Windows 7 #11-1]     at Hosted.getNewDriver (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/protractor/built/driverProviders/driverProvider.js:53:33)
+[chrome 41 Windows 7 #11-1]     at Runner.createBrowser (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/protractor/built/runner.js:195:43)
+[chrome 41 Windows 7 #11-1]     at q.then.then (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/protractor/built/runner.js:339:29)
+[chrome 41 Windows 7 #11-1]     at _fulfilled (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/q/q.js:834:54)
+[chrome 41 Windows 7 #11-1]     at /Users/ianflanagan/Workspace/ProtractorDemo/node_modules/q/q.js:863:30
+[chrome 41 Windows 7 #11-1]     at Promise.promise.promiseDispatch (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/q/q.js:796:13)
+
+[17:23:00] I/testLogger - 
+
+[17:23:00] E/launcher - Runner process exited unexpectedly with error code: 1
+[17:23:00] I/launcher - 4 instance(s) of WebDriver still running
+[17:23:01] I/testLogger - 
+------------------------------------
+
+[17:23:01] I/testLogger - [firefox latest OS X 10.10 #01-0] PID: 55099
+[firefox latest OS X 10.10 #01-0] Specs: /Users/ianflanagan/Workspace/ProtractorDemo/specs/1_spec.js
+[firefox latest OS X 10.10 #01-0] 
+[firefox latest OS X 10.10 #01-0] Starting Sauce Protractor script now
+[firefox latest OS X 10.10 #01-0] iflanagan
+[firefox latest OS X 10.10 #01-0] undefined
+[firefox latest OS X 10.10 #01-0] [17:23:00] I/hosted - Using the selenium server at http://ondemand.saucelabs.com:80/wd/hub
+[firefox latest OS X 10.10 #01-0] 
+[firefox latest OS X 10.10 #01-0] /Users/ianflanagan/Workspace/ProtractorDemo/node_modules/selenium-webdriver/lib/http.js:536
+[firefox latest OS X 10.10 #01-0]     throw new error.WebDriverError(value);
+[firefox latest OS X 10.10 #01-0]           ^
+[firefox latest OS X 10.10 #01-0] WebDriverError: Misconfigured -- Sauce Labs Authentication Error.
+[firefox latest OS X 10.10 #01-0] You used username 'None' and access key 'None' to authenticate, which are not valid Sauce Labs credentials.
+[firefox latest OS X 10.10 #01-0] 
+[firefox latest OS X 10.10 #01-0] The following desired capabilities were received:
+[firefox latest OS X 10.10 #01-0] {'browserName': 'firefox',
+[firefox latest OS X 10.10 #01-0]  'count': 1,
+[firefox latest OS X 10.10 #01-0]  'maxInstances': 2,
+[firefox latest OS X 10.10 #01-0]  'name': 'firefox-tests',
+[firefox latest OS X 10.10 #01-0]  'platform': 'OS X 10.10',
+[firefox latest OS X 10.10 #01-0]  'sauceUser': 'iflanagan',
+[firefox latest OS X 10.10 #01-0]  'shardTestFiles': True,
+[firefox latest OS X 10.10 #01-0]  'version': 'latest'}
+[firefox latest OS X 10.10 #01-0]     at parseHttpResponse (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/selenium-webdriver/lib/http.js:536:11)
+[firefox latest OS X 10.10 #01-0]     at doSend.then.response (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/selenium-webdriver/lib/http.js:441:30)
+[firefox latest OS X 10.10 #01-0]     at processTicksAndRejections (internal/process/next_tick.js:81:5)
+[firefox latest OS X 10.10 #01-0] From: Task: WebDriver.createSession()
+[firefox latest OS X 10.10 #01-0]     at Function.createSession (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/selenium-webdriver/lib/webdriver.js:769:24)
+[firefox latest OS X 10.10 #01-0]     at Function.createSession (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/selenium-webdriver/firefox/index.js:521:41)
+[firefox latest OS X 10.10 #01-0]     at createDriver (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/selenium-webdriver/index.js:170:33)
+[firefox latest OS X 10.10 #01-0]     at Builder.build (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/selenium-webdriver/index.js:632:16)
+[firefox latest OS X 10.10 #01-0]     at Hosted.getNewDriver (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/protractor/built/driverProviders/driverProvider.js:53:33)
+[firefox latest OS X 10.10 #01-0]     at Runner.createBrowser (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/protractor/built/runner.js:195:43)
+[firefox latest OS X 10.10 #01-0]     at q.then.then (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/protractor/built/runner.js:339:29)
+[firefox latest OS X 10.10 #01-0]     at _fulfilled (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/q/q.js:834:54)
+[firefox latest OS X 10.10 #01-0]     at /Users/ianflanagan/Workspace/ProtractorDemo/node_modules/q/q.js:863:30
+[firefox latest OS X 10.10 #01-0]     at Promise.promise.promiseDispatch (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/q/q.js:796:13)
+
+[17:23:01] I/testLogger - 
+
+[17:23:01] E/launcher - Runner process exited unexpectedly with error code: 1
+[17:23:01] I/launcher - 4 instance(s) of WebDriver still running
+[17:23:01] I/testLogger - 
+------------------------------------
+
+[17:23:01] I/testLogger - [firefox latest OS X 10.10 #01-2] PID: 55103
+[firefox latest OS X 10.10 #01-2] Specs: /Users/ianflanagan/Workspace/ProtractorDemo/specs/3_spec.js
+[firefox latest OS X 10.10 #01-2] 
+[firefox latest OS X 10.10 #01-2] Starting Sauce Protractor script now
+[firefox latest OS X 10.10 #01-2] iflanagan
+[firefox latest OS X 10.10 #01-2] undefined
+[firefox latest OS X 10.10 #01-2] [17:23:00] I/hosted - Using the selenium server at http://ondemand.saucelabs.com:80/wd/hub
+[firefox latest OS X 10.10 #01-2] 
+[firefox latest OS X 10.10 #01-2] /Users/ianflanagan/Workspace/ProtractorDemo/node_modules/selenium-webdriver/lib/http.js:536
+[firefox latest OS X 10.10 #01-2]     throw new error.WebDriverError(value);
+[firefox latest OS X 10.10 #01-2]           ^
+[firefox latest OS X 10.10 #01-2] WebDriverError: Misconfigured -- Sauce Labs Authentication Error.
+[firefox latest OS X 10.10 #01-2] You used username 'None' and access key 'None' to authenticate, which are not valid Sauce Labs credentials.
+[firefox latest OS X 10.10 #01-2] 
+[firefox latest OS X 10.10 #01-2] The following desired capabilities were received:
+[firefox latest OS X 10.10 #01-2] {'browserName': 'firefox',
+[firefox latest OS X 10.10 #01-2]  'count': 1,
+[firefox latest OS X 10.10 #01-2]  'maxInstances': 2,
+[firefox latest OS X 10.10 #01-2]  'name': 'firefox-tests',
+[firefox latest OS X 10.10 #01-2]  'platform': 'OS X 10.10',
+[firefox latest OS X 10.10 #01-2]  'sauceUser': 'iflanagan',
+[firefox latest OS X 10.10 #01-2]  'shardTestFiles': True,
+[firefox latest OS X 10.10 #01-2]  'version': 'latest'}
+[firefox latest OS X 10.10 #01-2]     at parseHttpResponse (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/selenium-webdriver/lib/http.js:536:11)
+[firefox latest OS X 10.10 #01-2]     at doSend.then.response (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/selenium-webdriver/lib/http.js:441:30)
+[firefox latest OS X 10.10 #01-2]     at processTicksAndRejections (internal/process/next_tick.js:81:5)
+[firefox latest OS X 10.10 #01-2] From: Task: WebDriver.createSession()
+[firefox latest OS X 10.10 #01-2]     at Function.createSession (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/selenium-webdriver/lib/webdriver.js:769:24)
+[firefox latest OS X 10.10 #01-2]     at Function.createSession (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/selenium-webdriver/firefox/index.js:521:41)
+[firefox latest OS X 10.10 #01-2]     at createDriver (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/selenium-webdriver/index.js:170:33)
+[firefox latest OS X 10.10 #01-2]     at Builder.build (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/selenium-webdriver/index.js:632:16)
+[firefox latest OS X 10.10 #01-2]     at Hosted.getNewDriver (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/protractor/built/driverProviders/driverProvider.js:53:33)
+[firefox latest OS X 10.10 #01-2]     at Runner.createBrowser (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/protractor/built/runner.js:195:43)
+[firefox latest OS X 10.10 #01-2]     at q.then.then (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/protractor/built/runner.js:339:29)
+[firefox latest OS X 10.10 #01-2]     at _fulfilled (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/q/q.js:834:54)
+[firefox latest OS X 10.10 #01-2]     at /Users/ianflanagan/Workspace/ProtractorDemo/node_modules/q/q.js:863:30
+[firefox latest OS X 10.10 #01-2]     at Promise.promise.promiseDispatch (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/q/q.js:796:13)
+
+[17:23:01] I/testLogger - 
+
+[17:23:01] E/launcher - Runner process exited unexpectedly with error code: 1
+[17:23:01] I/launcher - 4 instance(s) of WebDriver still running
+[17:23:01] I/testLogger - 
+------------------------------------
+
+[17:23:01] I/testLogger - [chrome 41 Windows 7 #11-3] PID: 55105
+[chrome 41 Windows 7 #11-3] Specs: /Users/ianflanagan/Workspace/ProtractorDemo/specs/4_spec.js
+[chrome 41 Windows 7 #11-3] 
+[chrome 41 Windows 7 #11-3] Starting Sauce Protractor script now
+[chrome 41 Windows 7 #11-3] iflanagan
+[chrome 41 Windows 7 #11-3] undefined
+[chrome 41 Windows 7 #11-3] [17:23:01] I/hosted - Using the selenium server at http://ondemand.saucelabs.com:80/wd/hub
+[chrome 41 Windows 7 #11-3] 
+[chrome 41 Windows 7 #11-3] /Users/ianflanagan/Workspace/ProtractorDemo/node_modules/selenium-webdriver/lib/http.js:536
+[chrome 41 Windows 7 #11-3]     throw new error.WebDriverError(value);
+[chrome 41 Windows 7 #11-3]           ^
+[chrome 41 Windows 7 #11-3] WebDriverError: Misconfigured -- Sauce Labs Authentication Error.
+[chrome 41 Windows 7 #11-3] You used username 'None' and access key 'None' to authenticate, which are not valid Sauce Labs credentials.
+[chrome 41 Windows 7 #11-3] 
+[chrome 41 Windows 7 #11-3] The following desired capabilities were received:
+[chrome 41 Windows 7 #11-3] {'browserName': 'chrome',
+[chrome 41 Windows 7 #11-3]  'count': 1,
+[chrome 41 Windows 7 #11-3]  'maxInstances': 2,
+[chrome 41 Windows 7 #11-3]  'name': 'chrome-tests',
+[chrome 41 Windows 7 #11-3]  'platform': 'Windows 7',
+[chrome 41 Windows 7 #11-3]  'sauceUser': 'iflanagan',
+[chrome 41 Windows 7 #11-3]  'shardTestFiles': True,
+[chrome 41 Windows 7 #11-3]  'version': '41'}
+[chrome 41 Windows 7 #11-3]     at parseHttpResponse (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/selenium-webdriver/lib/http.js:536:11)
+[chrome 41 Windows 7 #11-3]     at doSend.then.response (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/selenium-webdriver/lib/http.js:441:30)
+[chrome 41 Windows 7 #11-3]     at processTicksAndRejections (internal/process/next_tick.js:81:5)
+[chrome 41 Windows 7 #11-3] From: Task: WebDriver.createSession()
+[chrome 41 Windows 7 #11-3]     at Function.createSession (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/selenium-webdriver/lib/webdriver.js:769:24)
+[chrome 41 Windows 7 #11-3]     at Function.createSession (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/selenium-webdriver/chrome.js:761:15)
+[chrome 41 Windows 7 #11-3]     at createDriver (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/selenium-webdriver/index.js:170:33)
+[chrome 41 Windows 7 #11-3]     at Builder.build (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/selenium-webdriver/index.js:626:16)
+[chrome 41 Windows 7 #11-3]     at Hosted.getNewDriver (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/protractor/built/driverProviders/driverProvider.js:53:33)
+[chrome 41 Windows 7 #11-3]     at Runner.createBrowser (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/protractor/built/runner.js:195:43)
+[chrome 41 Windows 7 #11-3]     at q.then.then (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/protractor/built/runner.js:339:29)
+[chrome 41 Windows 7 #11-3]     at _fulfilled (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/q/q.js:834:54)
+[chrome 41 Windows 7 #11-3]     at /Users/ianflanagan/Workspace/ProtractorDemo/node_modules/q/q.js:863:30
+[chrome 41 Windows 7 #11-3]     at Promise.promise.promiseDispatch (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/q/q.js:796:13)
+
+[17:23:01] I/testLogger - 
+
+[17:23:01] E/launcher - Runner process exited unexpectedly with error code: 1
+[17:23:01] I/launcher - 4 instance(s) of WebDriver still running
+[17:23:01] I/testLogger - 
+------------------------------------
+
+[17:23:01] I/testLogger - [chrome 41 Windows 7 #11-2] PID: 55104
+[chrome 41 Windows 7 #11-2] Specs: /Users/ianflanagan/Workspace/ProtractorDemo/specs/3_spec.js
+[chrome 41 Windows 7 #11-2] 
+[chrome 41 Windows 7 #11-2] Starting Sauce Protractor script now
+[chrome 41 Windows 7 #11-2] iflanagan
+[chrome 41 Windows 7 #11-2] undefined
+[chrome 41 Windows 7 #11-2] [17:23:01] I/hosted - Using the selenium server at http://ondemand.saucelabs.com:80/wd/hub
+[chrome 41 Windows 7 #11-2] 
+[chrome 41 Windows 7 #11-2] /Users/ianflanagan/Workspace/ProtractorDemo/node_modules/selenium-webdriver/lib/http.js:536
+[chrome 41 Windows 7 #11-2]     throw new error.WebDriverError(value);
+[chrome 41 Windows 7 #11-2]           ^
+[chrome 41 Windows 7 #11-2] WebDriverError: Misconfigured -- Sauce Labs Authentication Error.
+[chrome 41 Windows 7 #11-2] You used username 'None' and access key 'None' to authenticate, which are not valid Sauce Labs credentials.
+[chrome 41 Windows 7 #11-2] 
+[chrome 41 Windows 7 #11-2] The following desired capabilities were received:
+[chrome 41 Windows 7 #11-2] {'browserName': 'chrome',
+[chrome 41 Windows 7 #11-2]  'count': 1,
+[chrome 41 Windows 7 #11-2]  'maxInstances': 2,
+[chrome 41 Windows 7 #11-2]  'name': 'chrome-tests',
+[chrome 41 Windows 7 #11-2]  'platform': 'Windows 7',
+[chrome 41 Windows 7 #11-2]  'sauceUser': 'iflanagan',
+[chrome 41 Windows 7 #11-2]  'shardTestFiles': True,
+[chrome 41 Windows 7 #11-2]  'version': '41'}
+[chrome 41 Windows 7 #11-2]     at parseHttpResponse (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/selenium-webdriver/lib/http.js:536:11)
+[chrome 41 Windows 7 #11-2]     at doSend.then.response (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/selenium-webdriver/lib/http.js:441:30)
+[chrome 41 Windows 7 #11-2]     at processTicksAndRejections (internal/process/next_tick.js:81:5)
+[chrome 41 Windows 7 #11-2] From: Task: WebDriver.createSession()
+[chrome 41 Windows 7 #11-2]     at Function.createSession (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/selenium-webdriver/lib/webdriver.js:769:24)
+[chrome 41 Windows 7 #11-2]     at Function.createSession (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/selenium-webdriver/chrome.js:761:15)
+[chrome 41 Windows 7 #11-2]     at createDriver (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/selenium-webdriver/index.js:170:33)
+[chrome 41 Windows 7 #11-2]     at Builder.build (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/selenium-webdriver/index.js:626:16)
+[chrome 41 Windows 7 #11-2]     at Hosted.getNewDriver (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/protractor/built/driverProviders/driverProvider.js:53:33)
+[chrome 41 Windows 7 #11-2]     at Runner.createBrowser (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/protractor/built/runner.js:195:43)
+[chrome 41 Windows 7 #11-2]     at q.then.then (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/protractor/built/runner.js:339:29)
+[chrome 41 Windows 7 #11-2]     at _fulfilled (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/q/q.js:834:54)
+[chrome 41 Windows 7 #11-2]     at /Users/ianflanagan/Workspace/ProtractorDemo/node_modules/q/q.js:863:30
+[chrome 41 Windows 7 #11-2]     at Promise.promise.promiseDispatch (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/q/q.js:796:13)
+
+[17:23:01] I/testLogger - 
+
+[17:23:01] E/launcher - Runner process exited unexpectedly with error code: 1
+[17:23:01] I/launcher - 4 instance(s) of WebDriver still running
+[17:23:01] I/testLogger - 
+------------------------------------
+
+[17:23:01] I/testLogger - [firefox latest OS X 10.10 #01-3] PID: 55106
+[firefox latest OS X 10.10 #01-3] Specs: /Users/ianflanagan/Workspace/ProtractorDemo/specs/4_spec.js
+[firefox latest OS X 10.10 #01-3] 
+[firefox latest OS X 10.10 #01-3] Starting Sauce Protractor script now
+[firefox latest OS X 10.10 #01-3] iflanagan
+[firefox latest OS X 10.10 #01-3] undefined
+[firefox latest OS X 10.10 #01-3] [17:23:01] I/hosted - Using the selenium server at http://ondemand.saucelabs.com:80/wd/hub
+[firefox latest OS X 10.10 #01-3] 
+[firefox latest OS X 10.10 #01-3] /Users/ianflanagan/Workspace/ProtractorDemo/node_modules/selenium-webdriver/lib/http.js:536
+[firefox latest OS X 10.10 #01-3]     throw new error.WebDriverError(value);
+[firefox latest OS X 10.10 #01-3]           ^
+[firefox latest OS X 10.10 #01-3] WebDriverError: Misconfigured -- Sauce Labs Authentication Error.
+[firefox latest OS X 10.10 #01-3] You used username 'None' and access key 'None' to authenticate, which are not valid Sauce Labs credentials.
+[firefox latest OS X 10.10 #01-3] 
+[firefox latest OS X 10.10 #01-3] The following desired capabilities were received:
+[firefox latest OS X 10.10 #01-3] {'browserName': 'firefox',
+[firefox latest OS X 10.10 #01-3]  'count': 1,
+[firefox latest OS X 10.10 #01-3]  'maxInstances': 2,
+[firefox latest OS X 10.10 #01-3]  'name': 'firefox-tests',
+[firefox latest OS X 10.10 #01-3]  'platform': 'OS X 10.10',
+[firefox latest OS X 10.10 #01-3]  'sauceUser': 'iflanagan',
+[firefox latest OS X 10.10 #01-3]  'shardTestFiles': True,
+[firefox latest OS X 10.10 #01-3]  'version': 'latest'}
+[firefox latest OS X 10.10 #01-3]     at parseHttpResponse (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/selenium-webdriver/lib/http.js:536:11)
+[firefox latest OS X 10.10 #01-3]     at doSend.then.response (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/selenium-webdriver/lib/http.js:441:30)
+[firefox latest OS X 10.10 #01-3]     at processTicksAndRejections (internal/process/next_tick.js:81:5)
+[firefox latest OS X 10.10 #01-3] From: Task: WebDriver.createSession()
+[firefox latest OS X 10.10 #01-3]     at Function.createSession (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/selenium-webdriver/lib/webdriver.js:769:24)
+[firefox latest OS X 10.10 #01-3]     at Function.createSession (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/selenium-webdriver/firefox/index.js:521:41)
+[firefox latest OS X 10.10 #01-3]     at createDriver (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/selenium-webdriver/index.js:170:33)
+[firefox latest OS X 10.10 #01-3]     at Builder.build (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/selenium-webdriver/index.js:632:16)
+[firefox latest OS X 10.10 #01-3]     at Hosted.getNewDriver (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/protractor/built/driverProviders/driverProvider.js:53:33)
+[firefox latest OS X 10.10 #01-3]     at Runner.createBrowser (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/protractor/built/runner.js:195:43)
+[firefox latest OS X 10.10 #01-3]     at q.then.then (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/protractor/built/runner.js:339:29)
+[firefox latest OS X 10.10 #01-3]     at _fulfilled (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/q/q.js:834:54)
+[firefox latest OS X 10.10 #01-3]     at /Users/ianflanagan/Workspace/ProtractorDemo/node_modules/q/q.js:863:30
+[firefox latest OS X 10.10 #01-3]     at Promise.promise.promiseDispatch (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/q/q.js:796:13)
+
+[17:23:01] I/testLogger - 
+
+[17:23:01] E/launcher - Runner process exited unexpectedly with error code: 1
+[17:23:01] I/launcher - 4 instance(s) of WebDriver still running
+[17:23:01] I/testLogger - 
+------------------------------------
+
+[17:23:01] I/testLogger - [firefox latest OS X 10.10 #01-4] PID: 55107
+[firefox latest OS X 10.10 #01-4] Specs: /Users/ianflanagan/Workspace/ProtractorDemo/specs/5_spec.js
+[firefox latest OS X 10.10 #01-4] 
+[firefox latest OS X 10.10 #01-4] Starting Sauce Protractor script now
+[firefox latest OS X 10.10 #01-4] iflanagan
+[firefox latest OS X 10.10 #01-4] undefined
+[firefox latest OS X 10.10 #01-4] [17:23:01] I/hosted - Using the selenium server at http://ondemand.saucelabs.com:80/wd/hub
+[firefox latest OS X 10.10 #01-4] 
+[firefox latest OS X 10.10 #01-4] /Users/ianflanagan/Workspace/ProtractorDemo/node_modules/selenium-webdriver/lib/http.js:536
+[firefox latest OS X 10.10 #01-4]     throw new error.WebDriverError(value);
+[firefox latest OS X 10.10 #01-4]           ^
+[firefox latest OS X 10.10 #01-4] WebDriverError: Misconfigured -- Sauce Labs Authentication Error.
+[firefox latest OS X 10.10 #01-4] You used username 'None' and access key 'None' to authenticate, which are not valid Sauce Labs credentials.
+[firefox latest OS X 10.10 #01-4] 
+[firefox latest OS X 10.10 #01-4] The following desired capabilities were received:
+[firefox latest OS X 10.10 #01-4] {'browserName': 'firefox',
+[firefox latest OS X 10.10 #01-4]  'count': 1,
+[firefox latest OS X 10.10 #01-4]  'maxInstances': 2,
+[firefox latest OS X 10.10 #01-4]  'name': 'firefox-tests',
+[firefox latest OS X 10.10 #01-4]  'platform': 'OS X 10.10',
+[firefox latest OS X 10.10 #01-4]  'sauceUser': 'iflanagan',
+[firefox latest OS X 10.10 #01-4]  'shardTestFiles': True,
+[firefox latest OS X 10.10 #01-4]  'version': 'latest'}
+[firefox latest OS X 10.10 #01-4]     at parseHttpResponse (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/selenium-webdriver/lib/http.js:536:11)
+[firefox latest OS X 10.10 #01-4]     at doSend.then.response (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/selenium-webdriver/lib/http.js:441:30)
+[firefox latest OS X 10.10 #01-4]     at processTicksAndRejections (internal/process/next_tick.js:81:5)
+[firefox latest OS X 10.10 #01-4] From: Task: WebDriver.createSession()
+[firefox latest OS X 10.10 #01-4]     at Function.createSession (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/selenium-webdriver/lib/webdriver.js:769:24)
+[firefox latest OS X 10.10 #01-4]     at Function.createSession (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/selenium-webdriver/firefox/index.js:521:41)
+[firefox latest OS X 10.10 #01-4]     at createDriver (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/selenium-webdriver/index.js:170:33)
+[firefox latest OS X 10.10 #01-4]     at Builder.build (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/selenium-webdriver/index.js:632:16)
+[firefox latest OS X 10.10 #01-4]     at Hosted.getNewDriver (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/protractor/built/driverProviders/driverProvider.js:53:33)
+[firefox latest OS X 10.10 #01-4]     at Runner.createBrowser (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/protractor/built/runner.js:195:43)
+[firefox latest OS X 10.10 #01-4]     at q.then.then (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/protractor/built/runner.js:339:29)
+[firefox latest OS X 10.10 #01-4]     at _fulfilled (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/q/q.js:834:54)
+[firefox latest OS X 10.10 #01-4]     at /Users/ianflanagan/Workspace/ProtractorDemo/node_modules/q/q.js:863:30
+[firefox latest OS X 10.10 #01-4]     at Promise.promise.promiseDispatch (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/q/q.js:796:13)
+
+[17:23:01] I/testLogger - 
+
+[17:23:01] E/launcher - Runner process exited unexpectedly with error code: 1
+[17:23:01] I/launcher - 3 instance(s) of WebDriver still running
+[17:23:01] I/testLogger - 
+------------------------------------
+
+[17:23:01] I/testLogger - [chrome 41 Windows 7 #11-5] PID: 55109
+[chrome 41 Windows 7 #11-5] Specs: /Users/ianflanagan/Workspace/ProtractorDemo/specs/6_spec.js
+[chrome 41 Windows 7 #11-5] 
+[chrome 41 Windows 7 #11-5] Starting Sauce Protractor script now
+[chrome 41 Windows 7 #11-5] iflanagan
+[chrome 41 Windows 7 #11-5] undefined
+[chrome 41 Windows 7 #11-5] [17:23:01] I/hosted - Using the selenium server at http://ondemand.saucelabs.com:80/wd/hub
+[chrome 41 Windows 7 #11-5] 
+[chrome 41 Windows 7 #11-5] /Users/ianflanagan/Workspace/ProtractorDemo/node_modules/selenium-webdriver/lib/http.js:536
+[chrome 41 Windows 7 #11-5]     throw new error.WebDriverError(value);
+[chrome 41 Windows 7 #11-5]           ^
+[chrome 41 Windows 7 #11-5] WebDriverError: Misconfigured -- Sauce Labs Authentication Error.
+[chrome 41 Windows 7 #11-5] You used username 'None' and access key 'None' to authenticate, which are not valid Sauce Labs credentials.
+[chrome 41 Windows 7 #11-5] 
+[chrome 41 Windows 7 #11-5] The following desired capabilities were received:
+[chrome 41 Windows 7 #11-5] {'browserName': 'chrome',
+[chrome 41 Windows 7 #11-5]  'count': 1,
+[chrome 41 Windows 7 #11-5]  'maxInstances': 2,
+[chrome 41 Windows 7 #11-5]  'name': 'chrome-tests',
+[chrome 41 Windows 7 #11-5]  'platform': 'Windows 7',
+[chrome 41 Windows 7 #11-5]  'sauceUser': 'iflanagan',
+[chrome 41 Windows 7 #11-5]  'shardTestFiles': True,
+[chrome 41 Windows 7 #11-5]  'version': '41'}
+[chrome 41 Windows 7 #11-5]     at parseHttpResponse (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/selenium-webdriver/lib/http.js:536:11)
+[chrome 41 Windows 7 #11-5]     at doSend.then.response (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/selenium-webdriver/lib/http.js:441:30)
+[chrome 41 Windows 7 #11-5]     at processTicksAndRejections (internal/process/next_tick.js:81:5)
+[chrome 41 Windows 7 #11-5] From: Task: WebDriver.createSession()
+[chrome 41 Windows 7 #11-5]     at Function.createSession (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/selenium-webdriver/lib/webdriver.js:769:24)
+[chrome 41 Windows 7 #11-5]     at Function.createSession (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/selenium-webdriver/chrome.js:761:15)
+[chrome 41 Windows 7 #11-5]     at createDriver (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/selenium-webdriver/index.js:170:33)
+[chrome 41 Windows 7 #11-5]     at Builder.build (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/selenium-webdriver/index.js:626:16)
+[chrome 41 Windows 7 #11-5]     at Hosted.getNewDriver (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/protractor/built/driverProviders/driverProvider.js:53:33)
+[chrome 41 Windows 7 #11-5]     at Runner.createBrowser (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/protractor/built/runner.js:195:43)
+[chrome 41 Windows 7 #11-5]     at q.then.then (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/protractor/built/runner.js:339:29)
+[chrome 41 Windows 7 #11-5]     at _fulfilled (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/q/q.js:834:54)
+[chrome 41 Windows 7 #11-5]     at /Users/ianflanagan/Workspace/ProtractorDemo/node_modules/q/q.js:863:30
+[chrome 41 Windows 7 #11-5]     at Promise.promise.promiseDispatch (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/q/q.js:796:13)
+
+[17:23:01] I/testLogger - 
+
+[17:23:01] E/launcher - Runner process exited unexpectedly with error code: 1
+[17:23:01] I/launcher - 2 instance(s) of WebDriver still running
+[17:23:01] I/testLogger - 
+------------------------------------
+
+[17:23:01] I/testLogger - [chrome 41 Windows 7 #11-4] PID: 55108
+[chrome 41 Windows 7 #11-4] Specs: /Users/ianflanagan/Workspace/ProtractorDemo/specs/5_spec.js
+[chrome 41 Windows 7 #11-4] 
+[chrome 41 Windows 7 #11-4] Starting Sauce Protractor script now
+[chrome 41 Windows 7 #11-4] iflanagan
+[chrome 41 Windows 7 #11-4] undefined
+[chrome 41 Windows 7 #11-4] [17:23:01] I/hosted - Using the selenium server at http://ondemand.saucelabs.com:80/wd/hub
+[chrome 41 Windows 7 #11-4] 
+[chrome 41 Windows 7 #11-4] /Users/ianflanagan/Workspace/ProtractorDemo/node_modules/selenium-webdriver/lib/http.js:536
+[chrome 41 Windows 7 #11-4]     throw new error.WebDriverError(value);
+[chrome 41 Windows 7 #11-4]           ^
+[chrome 41 Windows 7 #11-4] WebDriverError: Misconfigured -- Sauce Labs Authentication Error.
+[chrome 41 Windows 7 #11-4] You used username 'None' and access key 'None' to authenticate, which are not valid Sauce Labs credentials.
+[chrome 41 Windows 7 #11-4] 
+[chrome 41 Windows 7 #11-4] The following desired capabilities were received:
+[chrome 41 Windows 7 #11-4] {'browserName': 'chrome',
+[chrome 41 Windows 7 #11-4]  'count': 1,
+[chrome 41 Windows 7 #11-4]  'maxInstances': 2,
+[chrome 41 Windows 7 #11-4]  'name': 'chrome-tests',
+[chrome 41 Windows 7 #11-4]  'platform': 'Windows 7',
+[chrome 41 Windows 7 #11-4]  'sauceUser': 'iflanagan',
+[chrome 41 Windows 7 #11-4]  'shardTestFiles': True,
+[chrome 41 Windows 7 #11-4]  'version': '41'}
+[chrome 41 Windows 7 #11-4]     at parseHttpResponse (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/selenium-webdriver/lib/http.js:536:11)
+[chrome 41 Windows 7 #11-4]     at doSend.then.response (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/selenium-webdriver/lib/http.js:441:30)
+[chrome 41 Windows 7 #11-4]     at processTicksAndRejections (internal/process/next_tick.js:81:5)
+[chrome 41 Windows 7 #11-4] From: Task: WebDriver.createSession()
+[chrome 41 Windows 7 #11-4]     at Function.createSession (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/selenium-webdriver/lib/webdriver.js:769:24)
+[chrome 41 Windows 7 #11-4]     at Function.createSession (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/selenium-webdriver/chrome.js:761:15)
+[chrome 41 Windows 7 #11-4]     at createDriver (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/selenium-webdriver/index.js:170:33)
+[chrome 41 Windows 7 #11-4]     at Builder.build (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/selenium-webdriver/index.js:626:16)
+[chrome 41 Windows 7 #11-4]     at Hosted.getNewDriver (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/protractor/built/driverProviders/driverProvider.js:53:33)
+[chrome 41 Windows 7 #11-4]     at Runner.createBrowser (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/protractor/built/runner.js:195:43)
+[chrome 41 Windows 7 #11-4]     at q.then.then (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/protractor/built/runner.js:339:29)
+[chrome 41 Windows 7 #11-4]     at _fulfilled (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/q/q.js:834:54)
+[chrome 41 Windows 7 #11-4]     at /Users/ianflanagan/Workspace/ProtractorDemo/node_modules/q/q.js:863:30
+[chrome 41 Windows 7 #11-4]     at Promise.promise.promiseDispatch (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/q/q.js:796:13)
+
+[17:23:01] I/testLogger - 
+
+[17:23:01] E/launcher - Runner process exited unexpectedly with error code: 1
+[17:23:01] I/launcher - 1 instance(s) of WebDriver still running
+[17:23:02] I/testLogger - 
+------------------------------------
+
+[17:23:02] I/testLogger - [firefox latest OS X 10.10 #01-5] PID: 55110
+[firefox latest OS X 10.10 #01-5] Specs: /Users/ianflanagan/Workspace/ProtractorDemo/specs/6_spec.js
+[firefox latest OS X 10.10 #01-5] 
+[firefox latest OS X 10.10 #01-5] Starting Sauce Protractor script now
+[firefox latest OS X 10.10 #01-5] iflanagan
+[firefox latest OS X 10.10 #01-5] undefined
+[firefox latest OS X 10.10 #01-5] [17:23:01] I/hosted - Using the selenium server at http://ondemand.saucelabs.com:80/wd/hub
+[firefox latest OS X 10.10 #01-5] 
+[firefox latest OS X 10.10 #01-5] /Users/ianflanagan/Workspace/ProtractorDemo/node_modules/selenium-webdriver/lib/http.js:536
+[firefox latest OS X 10.10 #01-5]     throw new error.WebDriverError(value);
+[firefox latest OS X 10.10 #01-5]           ^
+[firefox latest OS X 10.10 #01-5] WebDriverError: Misconfigured -- Sauce Labs Authentication Error.
+[firefox latest OS X 10.10 #01-5] You used username 'None' and access key 'None' to authenticate, which are not valid Sauce Labs credentials.
+[firefox latest OS X 10.10 #01-5] 
+[firefox latest OS X 10.10 #01-5] The following desired capabilities were received:
+[firefox latest OS X 10.10 #01-5] {'browserName': 'firefox',
+[firefox latest OS X 10.10 #01-5]  'count': 1,
+[firefox latest OS X 10.10 #01-5]  'maxInstances': 2,
+[firefox latest OS X 10.10 #01-5]  'name': 'firefox-tests',
+[firefox latest OS X 10.10 #01-5]  'platform': 'OS X 10.10',
+[firefox latest OS X 10.10 #01-5]  'sauceUser': 'iflanagan',
+[firefox latest OS X 10.10 #01-5]  'shardTestFiles': True,
+[firefox latest OS X 10.10 #01-5]  'version': 'latest'}
+[firefox latest OS X 10.10 #01-5]     at parseHttpResponse (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/selenium-webdriver/lib/http.js:536:11)
+[firefox latest OS X 10.10 #01-5]     at doSend.then.response (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/selenium-webdriver/lib/http.js:441:30)
+[firefox latest OS X 10.10 #01-5]     at processTicksAndRejections (internal/process/next_tick.js:81:5)
+[firefox latest OS X 10.10 #01-5] From: Task: WebDriver.createSession()
+[firefox latest OS X 10.10 #01-5]     at Function.createSession (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/selenium-webdriver/lib/webdriver.js:769:24)
+[firefox latest OS X 10.10 #01-5]     at Function.createSession (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/selenium-webdriver/firefox/index.js:521:41)
+[firefox latest OS X 10.10 #01-5]     at createDriver (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/selenium-webdriver/index.js:170:33)
+[firefox latest OS X 10.10 #01-5]     at Builder.build (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/selenium-webdriver/index.js:632:16)
+[firefox latest OS X 10.10 #01-5]     at Hosted.getNewDriver (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/protractor/built/driverProviders/driverProvider.js:53:33)
+[firefox latest OS X 10.10 #01-5]     at Runner.createBrowser (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/protractor/built/runner.js:195:43)
+[firefox latest OS X 10.10 #01-5]     at q.then.then (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/protractor/built/runner.js:339:29)
+[firefox latest OS X 10.10 #01-5]     at _fulfilled (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/q/q.js:834:54)
+[firefox latest OS X 10.10 #01-5]     at /Users/ianflanagan/Workspace/ProtractorDemo/node_modules/q/q.js:863:30
+[firefox latest OS X 10.10 #01-5]     at Promise.promise.promiseDispatch (/Users/ianflanagan/Workspace/ProtractorDemo/node_modules/q/q.js:796:13)
+
+[17:23:02] I/testLogger - 
+
+[17:23:02] E/launcher - Runner process exited unexpectedly with error code: 1
+[17:23:02] I/launcher - 0 instance(s) of WebDriver still running
+[17:23:02] I/launcher - firefoxlatest #01-1 failed with exit code: 1
+[17:23:02] I/launcher - chrome41 #11-0 failed with exit code: 1
+[17:23:02] I/launcher - chrome41 #11-1 failed with exit code: 1
+[17:23:02] I/launcher - firefoxlatest #01-0 failed with exit code: 1
+[17:23:02] I/launcher - firefoxlatest #01-2 failed with exit code: 1
+[17:23:02] I/launcher - chrome41 #11-3 failed with exit code: 1
+[17:23:02] I/launcher - chrome41 #11-2 failed with exit code: 1
+[17:23:02] I/launcher - firefoxlatest #01-3 failed with exit code: 1
+[17:23:02] I/launcher - firefoxlatest #01-4 failed with exit code: 1
+[17:23:02] I/launcher - chrome41 #11-5 failed with exit code: 1
+[17:23:02] I/launcher - chrome41 #11-4 failed with exit code: 1
+[17:23:02] I/launcher - firefoxlatest #01-5 failed with exit code: 1
+[17:23:02] I/launcher - overall: 12 process(es) failed to complete
+[17:23:02] E/launcher - Process exited with error code 100
