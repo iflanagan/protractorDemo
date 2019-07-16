@@ -10,6 +10,7 @@ exports.config = {
 
 	sauceUser: process.env.SAUCE_USERNAME,
         sauceKey: process.env.SAUCE_ACCESS_KEY,
+	buildTag: process.env.BUILD_TAG,
 
     // webDriverProxy: 'http://<proxy>:<port>',
 
