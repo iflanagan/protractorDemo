@@ -8,6 +8,7 @@
   },
   "devDependencies": {
     "https-proxy-agent": "latest",
-    "protractor": "^5.4.2"
+    "protractor": "^5.4.2",
+    "screener-storybook": "^0.17.8"
   }
 }
