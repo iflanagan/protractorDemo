@@ -30,7 +30,7 @@ exports.config = {
 
         browserName: 'safari',
         version: 'latest',
-        platform: 'macOS 10.12',
+        platform: 'macOS 10.14',
         name: "Ian-safari-mac-protractor-tests",
         shardTestFiles: true,
         maxInstances: 20
