@@ -39,10 +39,10 @@ exports.config = {
 
   {
 
-        browserName: 'chrome',
+        browserName: 'safari',
         version: 'latest',
-  platform: 'macOS 10.14',
-        name: "Ian-chrome-mac-protractor-tests",
+        platform: 'macOS 10.14',
+        name: "Ian-safarai-mac-protractor-tests",
         shardTestFiles: true,
         maxInstances: 20
     },
@@ -51,7 +51,7 @@ exports.config = {
 
         browserName: 'chrome',
         version: 'latest',
-  platform: 'Windows 10',
+        platform: 'Windows 10',
         name: "Ian-chrome-windowsten-protractor-tests",
         shardTestFiles: true,
         maxInstances: 20
@@ -61,7 +61,7 @@ exports.config = {
 
         browserName: 'chrome',
         version: 'latest-1',
-  platform: 'Windows 10',
+        platform: 'Windows 10',
         name: "Ian-chrome-windowsten-protractor-tests",
         shardTestFiles: true,
         maxInstances: 20
@@ -71,7 +71,7 @@ exports.config = {
 
         browserName: 'chrome',
         version: 'latest-2',
-  platform: 'Windows 10',
+        platform: 'Windows 10',
         name: "Ian-chrome-windowsten-protractor-tests",
         shardTestFiles: true,
         maxInstances: 20
@@ -81,7 +81,7 @@ exports.config = {
 
         browserName: 'firefox',
         version: 'latest',
-  platform: 'Windows 10',
+        platform: 'Windows 10',
         name: "Ian-FF-windowsten-protractor-tests",
         shardTestFiles: true,
         maxInstances: 20
@@ -91,7 +91,7 @@ exports.config = {
 
         browserName: 'firefox',
         version: 'latest-1',
-  platform: 'Windows 10',
+        platform: 'Windows 10',
         name: "Ian-FF-windowsten-protractor-tests",
         shardTestFiles: true,
         maxInstances: 20
@@ -101,7 +101,7 @@ exports.config = {
 
         browserName: 'firefox',
         version: 'latest',
-  platform: 'Windows 8.1',
+        platform: 'Windows 8.1',
         name: "Ian-FF-windowseightdotone-protractor-tests",
         shardTestFiles: true,
         maxInstances: 20
@@ -111,7 +111,7 @@ exports.config = {
 
         browserName: 'firefox',
         version: 'latest-1',
-  platform: 'Windows 8.1',
+        platform: 'Windows 8.1',
         name: "Ian-FF-windowseightdotone-protractor-tests",
         shardTestFiles: true,
         maxInstances: 20
@@ -121,7 +121,7 @@ exports.config = {
 
         browserName: 'firefox',
         version: 'latest-2',
-  platform: 'Windows 8.1',
+        platform: 'Windows 8.1',
         name: "Ian-FF-windowseightdotone-protractor-tests",
         shardTestFiles: true,
         maxInstances: 20
@@ -132,7 +132,7 @@ exports.config = {
 
         browserName: 'chrome',
         version: 'latest',
-  platform: 'Windows 8.1',
+        platform: 'Windows 8.1',
         name: "Ian-chrome-windowseightdotone-protractor-tests",
         shardTestFiles: true,
         maxInstances: 20
@@ -142,7 +142,7 @@ exports.config = {
 
         browserName: 'chrome',
         version: 'latest-1',
-  platform: 'Windows 8.1',
+        platform: 'Windows 8.1',
         name: "Ian-chrome-windowseightdotone-protractor-tests",
         shardTestFiles: true,
         maxInstances: 20
@@ -152,7 +152,7 @@ exports.config = {
 
         browserName: 'chrome',
         version: 'latest-2',
-  platform: 'Windows 8.1',
+        platform: 'Windows 8.1',
         name: "Ian-chrome-windowseightdotone-protractor-tests",
         shardTestFiles: true,
         maxInstances: 20
@@ -162,7 +162,7 @@ exports.config = {
 
         browserName: 'firefox',
         version: 'latest-2',
-  platform: 'Windows 10',
+        platform: 'Windows 10',
         name: "Ian-FF-windowsten-protractor-tests",
         shardTestFiles: true,
         maxInstances: 20
@@ -175,7 +175,7 @@ exports.config = {
         browserName: 'chrome',
         version: 'latest-1',
         platform: 'Windows 7',
-        name: "Ian-chrome-mac-protractor-tests",
+        name: "Ian-chrome-windowsseven-protractor-tests",
         shardTestFiles: true,
         maxInstances: 20
     }, 
